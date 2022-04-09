@@ -1,0 +1,21 @@
+public class ex04FuncionarioMain {
+/* Crie uma classe funcionário e apresente os 
+*atributos e métodos referentes esta classe, 
+*em seguida crie um objeto funcionário, 
+*defina as instancias deste objeto 
+*e apresente as informações deste objeto no console. */
+
+	public static void main(String[] args) 
+	{
+		ex04Funcionario funcionario = new ex04Funcionario();
+		
+		funcionario.cadastro = true;
+		funcionario.nome = "Valmir";
+		funcionario.idade = 68;
+		
+		funcionario.status();
+		funcionario.entrada();
+	}
+	
+
+}

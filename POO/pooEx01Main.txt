@@ -1,0 +1,23 @@
+import exercícioPoo.exercicioCliente;
+
+/*Crie uma classe cliente e apresente os atributos e métodos referentes esta classe, 
+ * em seguida crie um objeto cliente, 
+ * defina as instancias deste objeto 
+ * e apresente as informações deste objeto no console.
+ */
+
+public class cliente {
+	public static void main(String[] args) 
+	{
+		exercicioCliente cliente = new exercicioCliente();
+		
+		cliente.cadastro = true;
+		cliente.nome = "Marcos Sel";
+		cliente.idade = 28;
+		
+		cliente.status();
+		cliente.entrada();
+	}
+	
+
+}
